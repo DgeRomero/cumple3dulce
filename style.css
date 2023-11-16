@@ -1,5 +1,6 @@
 *{
-  margin: 0px;  
+  margin: 0px;
+  box-sizing: border-box;  
 }
 body{
     background-image: url(img/dinoranchfondo.png);
@@ -9,11 +10,12 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh; 
+    width: 100vw;
     font-family: agbalumo;  
 }
 #formulario{
     background: greenyellow;
-    display: flex;
+    display: none;
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
@@ -47,7 +49,7 @@ body{
     border-radius: 10px;
 }
 #principal{
-    display: none;
+    display: flex;
     background: rgb(211, 146, 195, 0.5);
     color: white;
     flex-direction: column;
@@ -58,6 +60,13 @@ body{
     font-weight: bold;
     font-size: 1.4rem;
     height: 100vh;
+}
+.invitado{
+    color: green;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: agbalumo;
 }
 .dulce{
     color: green;
@@ -70,9 +79,23 @@ body{
     background-color: white;
     margin: 10px;
     font-size: 1.2rem; 
-    padding: 0.9em;
+    padding: 0.5em;
 }
 .dul{
     border-radius: 100px;
     height: 10em;
+}
+#mapa{
+    background: rgb(211, 146, 195, 0.5);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+.mapa{
+    width: 95vw;
+    height: 50vh;
+   
 }
