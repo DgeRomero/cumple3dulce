@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Glass+Antiqua&family=Vina+Sans&display=swap" rel="stylesheet">
+    <title>Mis 3 añitos</title>
+</head>
+<body>
+    <section>
+         <div id="formulario">
+            <label for="ingresar">Ingrese su nombre</label>
+            <input type="text" pattern="[A-Za-z]" class="ingresar" id="entrada"
+            onkeypress="return ' áéíóúabcdefghijklmnñopqrstuvwxyzÁÉÍÓÚABCDEFGHIJKLMNÑOPQRSTUVWXYZ'.includes(event.key)">
+            <button class="boton" id="boton" onclick="mostrarInvitacion()">Aceptar</button>
+         </div>
+
+         <div id="alerta">
+            <h1>¡Ingrese un nombre por favor!</h1>
+            <button class="volver" id="volver" onclick="volver()">Volver</button>
+         </div>
+
+         <div id="principal">
+            <h1 class="dulce" id="invitado"></h1>
+            <h2 class="dulce">¡SOY DULCE!</h2>
+            <p class="parrafo">Queria invitarte el día Sábado, 9 de Diciembre, a festejar mi cumple
+                número 3.
+            </p>
+            <img src="img/dul.jpg" alt="dulce" class="dul" id="dul" onclick="volver()">
+            <h2 class="dulce">¡Te espero!</h2>
+         </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
