@@ -72,29 +72,31 @@ body{
 }
 .invitado{
     color: green;
-    -webkit-text-stroke: 0.3px rgb(255, 255, 255);
-    font-size: 2.5rem;
+    -webkit-text-stroke: 0.2px rgb(24 26 24);
+    font-size: 2.8rem;
     font-weight: bold;
     font-family: LuckyDino;
 }
 .dulce{
     color: green;
-    -webkit-text-stroke: 0.3px rgb(255, 255, 255);
-    font-size: 4rem;
+    -webkit-text-stroke: 0.2px rgb(24 26 24);
+    font-size: 4.5rem;
     font-weight: bold;
     font-family: Dino Kids;
+    padding: 0.4em;
 }
 .parrafo{
-    background-color: white;
-    -webkit-text-stroke: 0.8px rgb(0, 128, 0);
+    background-color: #ffb14e;
+    -webkit-text-stroke: 0.2px rgb(24 26 24);
     color: #64e178;
     margin: 10px;
-    font-size: 1.2rem; 
+    font-size: 1.8rem; 
     padding: 0.5em;
 }
 .dul{
     border-radius: 100px;
-    height: 10em;
+    height: 12em;
+    margin: 10px;
 }
 #mapa{
     background: rgb(211, 146, 195, 0.5);
