@@ -83,7 +83,7 @@ body{
     font-size: 4.5rem;
     font-weight: bold;
     font-family: Dino Kids;
-    padding: 0.4em;
+    
 }
 .parrafo{
     background-color: #ffb14e;
@@ -92,11 +92,12 @@ body{
     margin: 10px;
     font-size: 1.8rem; 
     padding: 0.5em;
+    width: 80%;
 }
 .dul{
     border-radius: 100px;
-    height: 12em;
-    margin: 10px;
+    height: 10.5em;
+ 
 }
 #mapa{
     background: rgb(211, 146, 195, 0.5);
