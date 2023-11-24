@@ -2,6 +2,14 @@
   margin: 0px;
   box-sizing: border-box;  
 }
+@font-face {
+    font-family: Dino Kids;
+    src: url(font/Dino\ Kids.otf);
+}
+@font-face {
+    font-family: LuckyDino;
+    src: url(font/LuckyDino.otf);
+}
 body{
     background-image: url(img/dinoranchfondo.png);
     background-size: cover;
@@ -11,7 +19,7 @@ body{
     justify-content: center;
     height: 100vh; 
     width: 100vw;
-    font-family: agbalumo;  
+    font-family: LuckyDino;  
 }
 #formulario{
     background: greenyellow;
@@ -22,6 +30,7 @@ body{
     text-align: center;
     height: 20vh;
     margin: 5px;
+    padding: 2rem;
 }
 .ingresar{
     margin: 0.5rem;
@@ -56,24 +65,24 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    -webkit-text-stroke: 1px rgb(0, 128, 0);
+    -webkit-text-stroke: 0.3px rgb(0, 128, 0);
     font-weight: bold;
     font-size: 1.4rem;
     height: 100vh;
 }
 .invitado{
     color: green;
-    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    -webkit-text-stroke: 0.3px rgb(255, 255, 255);
     font-size: 2.5rem;
     font-weight: bold;
-    font-family: agbalumo;
+    font-family: LuckyDino;
 }
 .dulce{
     color: green;
-    -webkit-text-stroke: 1px rgb(255, 255, 255);
-    font-size: 3rem;
+    -webkit-text-stroke: 0.3px rgb(255, 255, 255);
+    font-size: 4rem;
     font-weight: bold;
-    font-family: agbalumo;
+    font-family: Dino Kids;
 }
 .parrafo{
     background-color: white;
@@ -96,6 +105,8 @@ body{
 }
 .mapa{
     width: 95vw;
-    height: 50vh;
-   
+    height: 50vh;   
+}
+#musica{
+    display: none;
 }
