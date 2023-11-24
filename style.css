@@ -79,14 +79,14 @@ body{
 }
 .dulce{
     color: green;
-    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    -webkit-text-stroke: 0.3px rgb(255, 255, 255);
     font-size: 4rem;
     font-weight: bold;
     font-family: Dino Kids;
 }
 .parrafo{
     background-color: white;
-    
+    -webkit-text-stroke: 0.8px rgb(0, 128, 0);
     margin: 10px;
     font-size: 1.2rem; 
     padding: 0.5em;
