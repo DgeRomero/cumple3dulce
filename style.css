@@ -73,14 +73,14 @@ body{
 .invitado{
     color: green;
     -webkit-text-stroke: 0.2px rgb(24 26 24);
-    font-size: 2.8rem;
+    font-size: 2.5rem;
     font-weight: bold;
     font-family: LuckyDino;
 }
 .dulce{
     color: green;
     -webkit-text-stroke: 0.2px rgb(24 26 24);
-    font-size: 4.2rem;
+    font-size: 4.0rem;
     font-weight: bold;
     font-family: Dino Kids;
     
@@ -97,7 +97,7 @@ body{
 }
 .dul{
     border-radius: 100px;
-    height: 10.2em;
+    height: 10em;
  
 }
 #mapa{
